@@ -20,8 +20,9 @@ server.use(cors({
     methods: 'GET'
 }));
 
-// server.use('/api/usuarios', require('./rutas/usuariosroute'));
+
 server.use('/api/costosBeneficio', require('./rutas/DimCostoBeneficio.route'));
+server.use('/api/', require('./rutas/index.route'));
 
 
 server.listen(server.get('port'), () => {

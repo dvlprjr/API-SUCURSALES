@@ -1,10 +1,11 @@
-const { Router } = require('express');
-const controladorInicio = require('../controladores/inicio.controller');
+const express = require('express');
+const router = express.Router();
 const controladorCostosBeneficio = require('../controladores/DimCostoBeneficio.controller');
 const controladorInicio = require('../controladores/inicio.controller');
 
-const rutas = Router();
 
 
-rutas.get('/', controladorInicio.Inicio);
-rutas.get('/costosBeneficio', controladorCostosBeneficio.Listar);
+router.get('/', controladorInicio.Inicio);
+router.get('/costosBeneficio', controladorCostosBeneficio.Listar);
+
+module.exports = router;

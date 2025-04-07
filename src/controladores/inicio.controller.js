@@ -3,11 +3,11 @@ exports.Inicio = (req, res) => {
         api: "API REST",
         version: "1.0",
         descripcion: "REST-API",
-        propiedad: "César Herrera",
+        propiedad: "COMPAÑIA FINANCIERA SA (COFISA)",
         desarrollador: "César Herrera",
-        fecha: "",
+        fecha: "04-2025",
         modulos:[
-            {nombre: 'Sucursales', ruta: '/api/Sucursales'},
+            {No:1, nombre: 'CostosBeneficio', ruta: '/api/costosBeneficio/listar'},
             
 
         ]

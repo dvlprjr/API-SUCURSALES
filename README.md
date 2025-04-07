@@ -67,10 +67,10 @@ npm start
 ```
 
 ## ENDPOINTS
-Inicio
+1. Inicio
 -- GET /api/
 Devuelve información general sobre la API.
-Costos Beneficio
+2. Costos Beneficio
 GET /api/costosBeneficio/listar
 
 

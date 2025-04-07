@@ -1,8 +1,8 @@
 const mensaje = (msj, estado, data, errores, res) =>{
     var mensajes = {
-        msj: msj,
-        data: data,
-        errores: errores
+        MSJ: msj,
+        DATA: data,
+        ERRORES: errores
     };
     res.setHeader('Content-Type', 'application/json');
     res.statusCode=estado;
